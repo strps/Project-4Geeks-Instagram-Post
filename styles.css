@@ -1,0 +1,49 @@
+body {
+    font-family: "Roboto";
+    background-color: black;
+}
+
+i{
+    font-size: 2em;
+    margin: auto 0.1em auto 0.1em;
+}
+
+.post{
+    width: 70%;
+    margin: 80px auto auto auto;
+    background-color: white;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.post-header>div{
+    display: flex;
+}
+
+.post-header h3, .post-header p{
+    margin: auto auto 0.2rem 1rem;
+}
+
+.post img{
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.likes a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.post-content{
+    padding: 0.5em;
+}
